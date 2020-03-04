@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1030348354929",
+    "firebase_url": "https://officeapptrail.firebaseio.com",
+    "project_id": "officeapptrail",
+    "storage_bucket": "officeapptrail.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030348354929:android:27265de7410b7c4e65b2d0",
+        "android_client_info": {
+          "package_name": "com.example.officeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030348354929-4p20vtdpjr9gko1bstqvdtrks9d4mup9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfb3T7JZ5QiJV-IBYwnl1M_HG1hotvyoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030348354929-4p20vtdpjr9gko1bstqvdtrks9d4mup9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
