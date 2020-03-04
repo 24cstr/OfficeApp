@@ -8,6 +8,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.database.DatabaseReference
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.confidential_screen.*
 import kotlinx.android.synthetic.main.first_login.*
 
 class MainActivity : AppCompatActivity() {
@@ -98,8 +99,15 @@ class MainActivity : AppCompatActivity() {
         if (usr != null) {
             setContentView(R.layout.activity_main)
             logout_button.setOnClickListener { logoutActivity() }
-            welcomeUser.text="Login Successful.\nWelcome "+ usr.email!!.removeSuffix("@idrbt.ac.in")
+            welcomeUser.text="Welcome "+ usr.email!!.removeSuffix("@idrbt.ac.in")
+            restrictedsec_button.setOnClickListener { checkLocationLogin() }
         }
+    }
+
+    private fun checkLocationLogin() {
+        setContentView(R.layout.confidential_screen)
+        back_button.setOnClickListener { MainUI(auth.currentUser) }
+        logout_res.setOnClickListener { logoutActivity() }
     }
 
 }
