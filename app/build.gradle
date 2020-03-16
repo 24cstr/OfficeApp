@@ -36,5 +36,12 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 
     implementation 'com.google.firebase:firebase-auth:19.2.0'
-    implementation 'com.google.firebase:firebase-database:16.0.1'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
+    implementation 'com.google.firebase:firebase-firestore:21.3.0'
+
+    //Altbeacon
+    implementation 'org.altbeacon:android-beacon-library:2.16.3'
+
+    //lemmingapex Trilateration
+    implementation 'com.lemmingapex.trilateration:trilateration:1.0.2'
 }
